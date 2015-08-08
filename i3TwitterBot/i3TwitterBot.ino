@@ -1,14 +1,11 @@
 /*
- *  Simple HTTP get webclient test
+ *  Simple HTTP get webclient test using pushingbox to tweet!
  */
  
 #include <ESP8266WiFi.h>
+#include "Secrets.h"
 
-const char* ssid     = "";
-const char* password = "";
-//This should be your device id from pushing box
-const char* secret = "";
-const char* host = "api.pushingbox.com";
+
  
 void setup() {
   Serial.begin(115200);
